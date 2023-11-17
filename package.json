@@ -17,6 +17,7 @@
   "scripts": {
     "start": "yarn example:start:watch",
     "build": "yarn lib:build",
+    "prepare": "yarn lib:build",
     "release": "yarn lib:release",
     "prettier": "prettier --write \"./**/*.{ts,json,graphql,yaml,md}\"",
     "lint-staged": "lint-staged",
